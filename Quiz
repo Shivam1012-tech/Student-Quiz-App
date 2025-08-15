@@ -1,0 +1,49 @@
+# Student Quiz App
+
+A colorful, multi-level quiz web application for students.  
+Supports login for multiple users, department selection, and timed questions.
+
+---
+
+## Features
+
+- **Student Login:** Only registered students (names and password) can access the quiz.
+- **Department Selection:** Choose from Computer Science, Mathematics, Physics, or General Knowledge.
+- **Levels:** Each department has 3 levels, each with 5 questions.
+- **Timed Questions:** Each question has a 10-second timer; auto-moves to the next question if time runs out.
+- **Instant Feedback:** Shows correct/wrong answer and explanation in black text.
+- **Auto Progression:** Automatically moves to next question/level.
+- **Score Display:** Shows total score and feedback at the end.
+- **Auto Logout:** Returns to login page after quiz completion.
+- **Colorful & Light UI:** Uses light gradients and clear, readable styles.
+
+---
+
+## How to Use
+
+1. **Download or clone the repository.**
+2. **Open `Quiz.html` in any modern browser.**
+3. **Login with your name and password (`zxy@456`).**
+4. **Select your department and level.**
+5. **Answer each question before the timer runs out.**
+6. **View your score at the end.**
+
+---
+
+## Customization
+
+- **Add/Remove Students:** Edit the `students` array in the HTML file.
+- **Change Questions:** Edit the `quizzes` object for each department and level.
+- **Host Online:** Upload `Quiz.html` to a web server for mobile access.
+
+---
+
+## Note
+
+- Results are not saved; each student must complete the quiz individually.
+- For mobile use, host the file online and share the link or QR code.
+
+---
+
+**Made for educational purposes.**  
+Feel free to
